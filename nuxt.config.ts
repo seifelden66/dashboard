@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     "/assets/main.scss"
   ],
   
-  modules: ['@nuxtjs/tailwindcss', '@pinia/nuxt', '@vee-validate/nuxt'],
+  modules: ['@nuxtjs/tailwindcss', '@pinia/nuxt', '@vueuse/nuxt', '@vee-validate/nuxt'],
   veeValidate: {
     autoImports:true,
     componentNames: {
@@ -17,6 +17,7 @@ export default defineNuxtConfig({
       ErrorMessage: 'VeeErrorMessage',
     },
   },
+  
   build: {
     transpile: ['primevue'],
   },

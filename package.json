@@ -22,6 +22,8 @@
     "@vee-validate/nuxt": "^4.11.8",
     "@vee-validate/rules": "^4.11.8",
     "@vee-validate/yup": "^4.11.8",
+    "@vueuse/integrations": "^10.6.1",
+    "@vueuse/nuxt": "^10.6.1",
     "animate.css": "^4.1.1",
     "chart.js": "^4.4.0",
     "pinia": "^2.1.7",
@@ -30,6 +32,7 @@
     "pug": "^3.0.2",
     "sass": "^1.69.5",
     "scss": "^0.2.4",
+    "universal-cookie": "^6.1.1",
     "vee-validate": "^4.11.8",
     "vue-chartjs": "^5.2.0"
   }
